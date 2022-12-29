@@ -1,4 +1,5 @@
 name: Build Pipeline for the Prime Generator Project
+
  on: [ push ]
 
  jobs:
