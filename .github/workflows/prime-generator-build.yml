@@ -1,6 +1,10 @@
 name: Build Pipeline for the Prime Generator Project
 
-on:  push
+on:
+  push:
+    branches:
+    - main
+    - release/*
 
 jobs:
      build:
