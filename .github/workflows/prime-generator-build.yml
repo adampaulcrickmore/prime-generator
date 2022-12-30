@@ -24,7 +24,7 @@ jobs:
       run: mvn -B --update-snapshots package
 
     - name: Update release
-      uses: johnwbyrd/update-release@v1
+      uses: prime-generator@v1
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         files: ./one-file-you-want-to-release.zip
